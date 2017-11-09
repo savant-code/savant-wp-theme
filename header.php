@@ -31,15 +31,13 @@
 			if ( is_front_page() ) : ?>
 				<div class="homepage-hero-module">
 				    <div class="video-container">
-				        <video autoplay loop class="fillWidth" poster="<?php echo get_theme_mod('header_video_poster') ?>">
+				        <video autoplay loop class="fillWidth" poster="<?php echo get_theme_mod('header_video_poster') ?>" preload="none">
 				            <source src="<?php echo get_theme_mod('header_video_mp4') ?>" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 				            <source src="<?php echo get_theme_mod('header_video_webm') ?>" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
 				            <source src="<?php echo get_theme_mod('header_video_ogv') ?>" type="video/ogg" />Your browser does not support the video tag. I suggest you upgrade your browser.
 				            <img src="<?php echo get_theme_mod('header_video_poster') ?>" alt="">
 				        </video>
-				        <div class="poster hidden">
-				            <img src="<?php echo get_theme_mod('header_mobile_poster') ?>" alt="">
-				        </div>
+				        
 				    </div>
 				</div>
 				<div class="video-overlay"></div>

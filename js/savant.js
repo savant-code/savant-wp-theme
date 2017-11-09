@@ -1,18 +1,18 @@
 jQuery(function($) {
 //jQuery is required to run this code
 
-if (navigator.userAgent.match(/Mobile|webOS|Nexus 7/)){
-    $(".video-container video").remove();
-    $(".video-container .poster").removeClass("hidden");
-};
-if (navigator.userAgent.match(/Mobile|webOS|Nexus 7/) && !navigator.userAgent.match(/Tablet|iPad/i)){
-    $("body").addClass("mobile");
-    $("#header-img").attr("src", $("#header-img").attr("mobile-src"));
-}
-else{
-    $("#header-img").attr("src", $("#header-img").attr("desktop-src"));
-    $('.video-container .poster img').hide();
-}
+// if (navigator.userAgent.match(/Mobile|webOS|Nexus 7/)){
+//     $(".video-container video").remove();
+//     $(".video-container .poster").removeClass("hidden");
+// };
+// if (navigator.userAgent.match(/Mobile|webOS|Nexus 7/) && !navigator.userAgent.match(/Tablet|iPad/i)){
+//     $("body").addClass("mobile");
+//     $("#header-img").attr("src", $("#header-img").attr("mobile-src"));
+// }
+// else{
+//     $("#header-img").attr("src", $("#header-img").attr("desktop-src"));
+//     // $('.video-container .poster img').hide();
+// }
 
 //jQuery is required to run this code
 $( document ).ready(function() {
