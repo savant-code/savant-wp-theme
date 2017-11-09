@@ -121,7 +121,7 @@ function savant_video_scripts() {
 
 	wp_enqueue_script( 'savant-video-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'buffalo-covenant-theme-base', get_template_directory_uri() . '/js/savant.js', array( 'jquery' ), '105', true);
+	wp_enqueue_script( 'buffalo-covenant-theme-base', get_template_directory_uri() . '/js/savant.js', array( 'jquery' ), '106', true);
 
 	wp_enqueue_script( 'savant-video-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
