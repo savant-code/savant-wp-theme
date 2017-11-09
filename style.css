@@ -949,3 +949,9 @@ object {
     color: #ffffff;
     padding: 15px;
 }
+
+@media only screen and (max-width: 500px) {
+	.home-title {
+		left: 0px;
+	}
+}

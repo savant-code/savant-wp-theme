@@ -11,6 +11,7 @@ if (navigator.userAgent.match(/Mobile|webOS|Nexus 7/) && !navigator.userAgent.ma
 }
 else{
     $("#header-img").attr("src", $("#header-img").attr("desktop-src"));
+    $('.video-container .poster img').hide();
 }
 
 //jQuery is required to run this code
@@ -28,7 +29,6 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
-    $('.video-container .poster img').hide();
 
 });
 
