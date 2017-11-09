@@ -5,7 +5,7 @@ GitHub Theme URI: https://github.com/savant-video/savant-wp-theme
 Author: Joe Buhlig
 Author URI: https://joebuhlig.com
 Description: Description
-Version: 1.0.7
+Version: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: savant-video
@@ -950,8 +950,16 @@ object {
     padding: 15px;
 }
 
+@media only screen and (max-width: 900px) {
+	.home-title {
+    left: calc(50% - 250px);
+		top: calc(50% - 125px);
+	}
+}
+
 @media only screen and (max-width: 500px) {
 	.home-title {
 		left: 0px;
+		top: calc(50% - 250px);
 	}
 }
