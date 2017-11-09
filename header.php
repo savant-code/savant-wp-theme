@@ -37,7 +37,9 @@
 				            <source src="<?php echo get_theme_mod('header_video_ogv') ?>" type="video/ogg" />Your browser does not support the video tag. I suggest you upgrade your browser.
 				            <img src="<?php echo get_theme_mod('header_video_poster') ?>" alt="">
 				        </video>
-				        
+				        <div class="poster hidden">
+				            <img src="<?php echo get_theme_mod('header_mobile_poster') ?>" alt="">
+				        </div>
 				    </div>
 				</div>
 				<div class="video-overlay"></div>
