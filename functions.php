@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'savant_video_widgets_init' );
  * Enqueue scripts and styles.
  */
 function savant_video_scripts() {
-	wp_enqueue_style( 'savant-video-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'savant-video-style', get_stylesheet_uri(), '', '1.0.4' );
 
 	wp_enqueue_script( 'savant-video-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
